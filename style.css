@@ -45,11 +45,11 @@ body {
 
 @media (max-width: 800px) {
     .calc-wrapper {
-        width: 70%;
-        max-height: 40vh;
+        width: 65%;
+        max-height: 30vh;
         box-shadow: 0 0 5px black;
         border-radius: 40px;
-        margin-bottom: 150px;
+        margin-bottom: 5%;
         padding-bottom: 20px;
     }
 }
