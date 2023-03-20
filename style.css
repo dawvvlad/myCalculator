@@ -36,11 +36,11 @@ body {
 }
 
 .calc-wrapper {
-    width: 70%;
+    width: 30%;
     min-height: 500px;
     box-shadow: 0 0 5px black;
     border-radius: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 3%
 }
 
 @media (max-width: 800px) {
@@ -49,17 +49,18 @@ body {
         max-height: 30vh;
         box-shadow: 0 0 5px black;
         border-radius: 40px;
-        margin-bottom: 5%;
-        padding-bottom: 20px;
+        margin-bottom: 15%;
+        padding-bottom: 3%
     }
 }
 
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     gap: 10px;
+    
 }
 
 
