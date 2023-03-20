@@ -45,8 +45,8 @@ body {
 
 @media (max-width: 800px) {
     .calc-wrapper {
-        width: 80%;
-        min-height: 35vh;
+        width: 70%;
+        min-height: 25vh;
         box-shadow: 0 0 5px black;
         border-radius: 40px;
         padding-bottom: 20px;
