@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(156, 38, 121), rgb(34, 42, 150));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dot {
+    background-color: rgba(236, 234, 94, 0.4);
+}
+
+.dot:hover {
+    background-color: rgba(45, 80, 21, 0.4);
+}
+
+.num {
+    background-color: rgba(31, 31, 122, 0.5);
+}
+
+.num:hover {
+    background-color: rgba(10, 10, 63, 0.5);
+}
+
+.calc-wrapper {
+    width: 30%;
+    min-height: 500px;
+    box-shadow: 0 0 5px black;
+    border-radius: 40px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .calc-wrapper {
+        width: 80%;
+        min-height: 35vh;
+        box-shadow: 0 0 5px black;
+        border-radius: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+button:last-child {
+    grid-column: 2 / 4;
+    background-color: rgba(224, 16, 16, .5);
+}
+
+button:last-child:hover {
+    background-color: rgba(153, 0, 0, 0.459);
+}
+
+.equal:hover {
+    background-color: rgb(228, 36, 36);
+    opacity: .8;
+}
+
+output {
+    width: 90%;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 70px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    transition: .1s linear;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+button:active {
+    transform: scale(.96);
+}
+
+.symbol {
+    background-color: rgba(93, 157, 253, 0.459);
+}
+
+button[value="C"] {
+    grid-column: 1 / 3;
+}
+
+.symbol:hover {
+    background-color: rgba(13, 67, 148, 0.459);
+}
