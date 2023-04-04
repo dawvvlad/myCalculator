@@ -1,3 +1,3 @@
 # Simple Calculator on JavaScript
 
-[Try it]dawvvlad.github.io/myCalculator/
+[Try it](https://dawvvlad.github.io/myCalculator/)
