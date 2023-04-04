@@ -41,9 +41,7 @@ function printNums(event) {
     let target = event.target;
 
     if(target.value == `CE`) {
-        a = ``; 
-        b = ``;
-        output.value = 0
+        location.reload()
     }
     if(target.value == `0` && output.value == `0`) return;
     if(target.tagName != `BUTTON`) return;
